@@ -1,5 +1,5 @@
 # LR1
-A left-right (or shift-reduce) parser for determining the validity and value of a simple expression. Possible operations are addition, subtraction, multiplication, and division. It will also evaluate expressions that contain parentheses.
+A left-right (or shift-reduce) parser for determining the validity and value of a simple expression, given as an argument. Possible operations are addition, subtraction, multiplication, and division. It will also evaluate expressions that contain parentheses.
 
 The parser uses terminal symbols (any positive integer n, +, -, &ast;, /, (, ), as well as end of expression represented by $) and non-terminal symbols E, T, and F, which are made up of terminal symbols and must be reduced to terminal symbols for evaluation. 
 
